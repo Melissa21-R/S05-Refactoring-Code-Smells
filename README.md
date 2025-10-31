@@ -38,3 +38,17 @@ This project is configured for automatic deployment to GitHub Pages using GitHub
 2. Under "Source", select "GitHub Actions"
 3. The workflow will automatically deploy on pushes to the `main` branch
 4. Your site will be published at `https://<your-github-username>.github.io/<repository-name>/`
+
+### Code Smells
+
+1. I was able to identify 3 code smells
+
+- Unclear Variable names
+- Duplicate code
+- Speculative Generality
+
+2. In order to fix these code smells I
+
+- Renamed the variable giving it a clearer more discriptive name
+- Extracted the function
+- inlined the function (just removed it and called the function setup)
